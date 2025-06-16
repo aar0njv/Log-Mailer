@@ -1,2 +1,3 @@
 logs/
 scripts/email_config.py
+__pycache__
