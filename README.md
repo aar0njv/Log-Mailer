@@ -8,14 +8,19 @@ The script is scheduled to run using `cron` on the **20th of every month at 11:5
 
 ## 📁 Project Structure
 
-user-log-mailer/
-├── cron/
-│ └── user_log_mailer.cron 
-├── logs/ 
-├── scripts/
-│ ├── generate_report.py 
-│ └── email_config.py 
-└── README.md
+<pre>
+ <code> 
+    user-log-mailer/ 
+    ├── cron/ 
+    │ └── user_log_mailer.cron 
+    ├── logs/ # Auto-generated log files 
+    ├── scripts/ 
+    │ ├── generate_report.py # Main script to generate and email the user report 
+    │ └── email_config.py # Stores email credentials and server info
+    ├── .gitignore 
+    └── README.md # Project overview and instructions
+ </code> 
+</pre>
 
 
 ---
