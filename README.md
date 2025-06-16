@@ -6,6 +6,7 @@ The script is scheduled to run using `cron` on the **20th of every month at 11:5
 
 ---
 
+<<<<<<< HEAD
 ## 📁 Project Structure
 
 <pre>
@@ -25,6 +26,8 @@ The script is scheduled to run using `cron` on the **20th of every month at 11:5
 
 ---
 
+=======
+>>>>>>> a6ce77486b6e7db4305c6dff0bb26eee85b9ccd6
 ## ⚙️ Configuration
 
 Edit `scripts/email_config.py` with your SMTP details:
